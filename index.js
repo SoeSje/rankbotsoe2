@@ -26,7 +26,7 @@ var Go = "god";
 var Ho = "how";
 
 async function run() {
-  await noblox.setCookie(Cookie);
+  await Roblox.setCookie(Cookie);
 }
 
 run();
