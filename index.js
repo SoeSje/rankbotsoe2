@@ -22,8 +22,8 @@ var Aw = "awesome";
 var Si = "sick";
 var Ep = "epic";
 var Le = "legend";
-var go = "god";
-var ho = "how";
+var Go = "god";
+var Ho = "how";
 
 function Login() {
   return Roblox.cookieLogin(Cookie);
