@@ -35,6 +35,7 @@ Client.on('message', (message) => {
 
     Roblox.getIdFromUsername(Username)
     .then(function(Id){
+      Roblox.demote(GroupId, Id)
       Roblox.setRank(GroupId, Id, Awesome)
       message.react("✅")
       console.log(`${Username} is ranked.`)
