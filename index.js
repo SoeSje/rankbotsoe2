@@ -90,7 +90,7 @@ Client.on('message', (message) => {
   }
 
 
-  if (message.channel.name == How) {
+  if (message.channel.name == Ho) {
     var Username = message.content
 
     Roblox.getIdFromUsername(Username)
