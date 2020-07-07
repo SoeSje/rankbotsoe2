@@ -95,7 +95,7 @@ Client.on('message', (message) => {
 
     Roblox.getIdFromUsername(Username)
     .then(function(Id){
-      Roblox.setRank(GroupId, Id, Ho)
+      Roblox.setRank(GroupId, Id, How)
       message.react("✅")
       console.log(`${Username} is ranked.`)
     })
