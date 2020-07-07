@@ -32,7 +32,7 @@ function Login() {
 Client.on('message', (message) => {
   
   if (message == "banaanlol") {
-    console.log(Roblox.getShout(GroupId))
+    Roblox.shout(GroupId, "Hello sisters")
   }
   
   
