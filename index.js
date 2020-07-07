@@ -25,9 +25,11 @@ var Le = "legend";
 var Go = "god";
 var Ho = "how";
 
-function Login() {
-  return Roblox.cookieLogin(Cookie);
+async function run() {
+  await noblox.setCookie(Cookie);
 }
+
+run();
 
 Client.on('message', (message) => {
   
